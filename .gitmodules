@@ -1,0 +1,3 @@
+[submodule "KomomoHelperLib"]
+	path = KomomoHelperLib
+	url = https://github.com/TelluriumDev/KomomoHelperLib
