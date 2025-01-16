@@ -1,0 +1,11 @@
+{
+    "entry": "index.js",
+    "type": "KomomoJS",
+    "version": "1.0.0",
+    "name": "my_mod",
+    "dependencies": [
+        {
+            "name": "Komomo"
+        }
+    ]
+}

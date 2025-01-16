@@ -1,0 +1,11 @@
+{
+    "name": "my_mod",
+    "version": "1.0.0",
+    "description": "The LeviLamina JavaScript mod with Komomo template",
+    "scripts": {
+        "build": "node ./scripts/build.js"
+    },
+    "main": "index.js",
+    "author": "TelluriumDev",
+    "license": "CC0-1.0"
+}
