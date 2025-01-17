@@ -20,8 +20,8 @@ export function newCustomForm(player: Player) {
     form.appendInput("控件标识符1", "控件标题", "输入提示", "默认值")
     form.appendToggle("控件标识符2", "控件标题", true)
     form.appendSlider("控件标识符3", "控件标题", 0, 100, 50)
-    form.appendStepSlider("控件标识符4", "控件标题", ["选项1", "选项2", "选项3"], "选项1")
-    form.appendDropdown("控件标识符5", "控件标题", ["选项1", "选项2", "选项3"], "选项1")
+    form.appendStepSlider("控件标识符4", "控件标题", ["选项1", "选项2", "选项3"], 2)
+    form.appendDropdown("控件标识符5", "控件标题", ["选项1", "选项2", "选项3"], 2)
     form.sendTo(player, (_pl, result) => {
         if (typeof result !== "object") return
         logger.info("控件标识符1: " + result["控件标识符1"])
