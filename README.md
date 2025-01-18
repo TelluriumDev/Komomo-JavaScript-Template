@@ -14,7 +14,7 @@
 ```bash
 git clone https://github.com/your-username/komomo-js-template.git 
 cd komomo-js-template
-git submodule update --init --recursive
+git submodule update --remote --recursive
 npm install
 ```
 
