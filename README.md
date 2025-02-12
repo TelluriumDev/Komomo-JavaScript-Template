@@ -13,7 +13,7 @@
 再此之前你应当 Use this template
 
 ```bash
-git clone https://github.com/your-username/Komomo-TypeScript-Template.git 
+git clone https://github.com/your-username/Komomo-TypeScript-Template.git -b JS
 cd Komomo-TypeScript-Template
 git submodule update --remote --recursive
 npm install

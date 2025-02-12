@@ -1,5 +1,3 @@
-// Event
-
 let listener = EventBus.emplaceListener("PlayerJoinEvent", (player) => {
     player.sendMessage("欢迎加入服务器！")
     return true
@@ -13,7 +11,7 @@ let logger = Logger.getLogger("Test Logger")
 
 // Form 
 // 此处可以不用导出
-export function newCustomForm(player: Player) {
+export function newCustomForm(player) {
     let form = Form.newCustomForm("Test Form")
     form.setTitle("测试表单")
     form.appendLabel("这是一个测试表单")
